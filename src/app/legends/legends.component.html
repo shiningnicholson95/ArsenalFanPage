@@ -1,0 +1,15 @@
+<h1 style="text-align:center;"> Welcome to legends section!</h1>
+<div class="container">
+  <div class="row" style="margin-top:130px;margin-left:10px;">
+<div *ngFor="let legends of AllLegends" class="col-md-4">
+    <div class="card" style="width: 18rem; padding:5px;">
+        <img class="card-img-top" src="{{legends.Poster}}" style="height:20vh;" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{legends.Name}}</h5>
+          <p class="card-text">{{legends.Description}}</p>
+          <a  [routerLink]="['/legends',legends.ID]" class="btn btn-primary">read more.</a>
+        </div>
+      </div>
+</div>
+</div>
+</div>

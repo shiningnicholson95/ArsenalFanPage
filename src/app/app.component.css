@@ -1,0 +1,24 @@
+.navbar-nav
+{
+    margin-left:200px;
+    color:red;
+}
+.nav-link
+{
+    color:red;
+}
+.sublink
+{
+    margin-left:390px;
+}
+@media screen and (max-width:1024px)
+{
+    .navbar-nav
+    {
+        margin-left:0px;
+    }
+    .sublink
+    {
+        margin-left:0px;
+    }
+}
